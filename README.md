@@ -1,8 +1,12 @@
 # Online Learning for Dynamic Pricing under Production Constraints
 
+Dynamic pricing algorithms using **online learning** for multiple products under inventory constraints.
+
 This repository contains the implementation of online learning algorithms for **dynamic pricing of multiple products under production constraints**, as part of a course project on *Online Learning Applications*.
 
-## Project Overview
+---
+
+## 🚀 Project Overview
 
 The goal of the project is to design algorithms that dynamically set product prices to maximize revenue while respecting production constraints. Buyers arrive sequentially, each with their own valuation for each product, and purchase any product priced below their valuation.
 
@@ -13,7 +17,9 @@ The goal of the project is to design algorithms that dynamically set product pri
 - Incorporates **inventory constraints**
 - Implements **UCB-based algorithms** and **primal-dual methods** for pricing
 
-## Environment Setup
+---
+
+## ⚙️ Environment Setup
 
 The project is structured around rounds of interaction:
 
@@ -28,7 +34,9 @@ The project is structured around rounds of interaction:
 - `P` – Set of possible prices (discrete)  
 - `B` – Total production capacity  
 
-## Requirements
+---
+
+## 📊 Requirements
 
 The project is divided into five main requirements, building from simple to advanced scenarios:
 
@@ -52,4 +60,4 @@ The project is divided into five main requirements, building from simple to adva
 5. **Multiple Products, Slightly Non-Stationary**  
    - Partition rounds into intervals with fixed valuations per interval  
    - Extend **Combinatorial-UCB with sliding window**  
-   - Compare performance against primal-dual method  
+   - Compare performance against primal-dual method
